@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+marquee{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+body{
+    background-image: url(./rm373batch13-082.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.container{
+    /* border: solid 2px black; */
+    width: 300px;
+    height: 400px;
+    transform: translate(590px,100px);
+}
+.result{
+    margin-top: 5px;
+    padding: 20px;
+    background: rgb(56, 56, 56);
+    color: white;
+    text-align: right;
+    border-radius: 2px;
+    width: 240px;
+}
+button{
+    margin-top: 10px;
+    padding: 20px 26px;
+    border: none;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(192, 192, 192);
+}
+#equal{
+    width: 150px;
+}
+#div,#mul,#sub{
+    width: 84px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav a:hover{
+    color: rgb(83, 83, 210);
+}
+.nav{
+    transform: translate(50px,200px);
+    color: white;
+}
